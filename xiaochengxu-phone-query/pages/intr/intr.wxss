@@ -1,0 +1,4 @@
+/* pages/intr/intr.wxss */
+page{background: #edeef2}
+.title{color: #3c3c3c;font-size: 15px;padding: 25rpx 0rpx;text-align: center;border-bottom: 1px solid #d1d1d1;display: block}
+.content{font-size:13px ;margin-top: 20px;padding:0px 15px 15px;width: 90%}

@@ -1,0 +1,8 @@
+<!--pages/intr/intr.wxml-->
+
+<scroll-view class="content" >
+
+<text selectable="{{isselect}}">
+{{content}}
+</text>
+</scroll-view>

@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/find/find",
+    "pages/intr/intr",    
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e6e6e6",
+    "navigationBarTitleText": "手机号归查询",
+    "navigationBarTextStyle":"black"
+  },
+ "tabBar": {
+   "list": [{
+     "pagePath": "pages/find/find",
+     "text": "首页",
+     "iconPath": "pages/images/tabBar/index.png",
+     "selectedIconPath": "pages/images/tabBar/index-select.png"
+   },
+   {
+     "pagePath": "pages/intr/intr",
+     "text": "介绍",
+     "iconPath": "pages/images/tabBar/intr.png",
+     "selectedIconPath": "pages/images/tabBar/intr-select.png"
+   }
+   ]
+ }
+}

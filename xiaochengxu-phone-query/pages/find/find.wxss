@@ -1,0 +1,8 @@
+/* pages/find/find.wxss */
+page{background: #edeef2}
+
+.biaoti{padding-left: 30px;padding-top: 20px;display: block}
+.shuru{border: 1px solid #d1d1d1;width: 80%;margin:15px auto;}
+.btn-query{width: 30%}
+.result{height: 126px}
+.result p{display: block;text-align: left;padding-left:30px}

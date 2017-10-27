@@ -1,0 +1,17 @@
+<!--pages/find/find.wxml-->
+<text class="biaoti"> 请输入手机号</text>
+<input  bindblur="cx" class="shuru"/> 
+<button bindtap="confirmQuery" class="btn-query" disabled="{{allow}}" loading="{{loading}}">查询</button>
+
+<view class="result" wx:if="{{cod}}">
+
+<p> 号段段：<text>{{result.mts}}</text></p>
+<p>省份: <text>{{result.province}}</text></p>
+<p>类型: <text>{{result.catName}}</text></p>
+<p>查询号码： <text>{{result.telString}}</text></p>
+<p>地域代码： <text>{{result.areaVid}}</text></p>
+<p> 卡号归属地：<text>{{result.carrier}}</text></p>
+<p> 数据来源：<text>{{result.msg}}</text></p>
+
+</view>
+<image src="../images/asset/true.jpg" style="width: 325px;  background-color: #eeeeee;" ></image>
