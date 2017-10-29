@@ -1,0 +1,2 @@
+.login-item{width: 80%;margin: 0 auto}
+.login-item input{border: 1px solid #e1e1e1;}

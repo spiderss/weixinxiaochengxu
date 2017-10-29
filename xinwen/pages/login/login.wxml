@@ -1,0 +1,24 @@
+<view class="login-container"> 
+  <view class='item'>
+     <image src="" class='image'/>
+  </view>
+  <view class='item'>
+    <view class='login-item'>
+     <view class='login-item-info'>用户名</view>
+     <view><input /></view>
+    </view>
+  </view>
+   <view class='item'>
+    <view class='login-item'>
+     <view class='login-item-info'>密码</view>
+     <view class='login-pwd'><input /></view>
+    </view>
+
+    <view class='item'>
+    <view class='login-item'>
+     <button formType="submit" bindtap="loginBtnClick">登录</button>
+    </view>
+     
+    </view>
+  </view>
+</view>
