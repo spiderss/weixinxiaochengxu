@@ -1,6 +1,7 @@
 Page({
   data: {
-
+      'userName':'',
+      'password':''
   },
   onLoad: function (options) {
      console.log("obloaler-------");
@@ -32,8 +33,12 @@ Page({
   
   loginBtnClick:function(event){
     console.log(event);
+  },  
+  userNameInput:function(evevt)
+  { 
+     var that=this;
+     this.setData({ "userName":'ok'});
   }
-
 
 
 
