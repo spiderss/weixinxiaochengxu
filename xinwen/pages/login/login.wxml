@@ -5,13 +5,13 @@
   <view class='item'>
     <view class='login-item'>
      <view class='login-item-info'>用户名</view>
-     <view><input bindinput='userNameInput'/></view>
+     <view><input bindinput='userNameInput'placeholder="请输入用户名" /></view>
     </view>
   </view>
    <view class='item'>
     <view class='login-item'>
      <view class='login-item-info'>密码</view>
-     <view class='login-pwd'><input bindinput='passWordInput' /></view>
+     <view class='login-pwd'><input bindinput='passWordInput' password='true' placeholder='请输入密码'/></view>
     </view>
 
     <view class='item'>
